@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:vritant/Home/screens.dart';
+import 'package:vritant/tabs/screens/tabs_screen.dart';
 // import 'package:swarabhaas/tabs/screens/tabs_screen.dart';
 
 // import '../../home/screens/home.dart';
@@ -33,8 +34,8 @@ class _LoginPageState extends State<LoginPage> {
               child: CircularProgressIndicator(),
             );
           } else if (snapshot.hasData) {
-            // return TabsScreen();
-            return HomePage();
+            return TabsScreen();
+            //return HomePage();
           } else {
             return LoginWidget();
           }
