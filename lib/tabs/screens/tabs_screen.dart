@@ -33,7 +33,6 @@ class _TabsScreenState extends State<TabsScreen> {
   Widget build(BuildContext context) {
     final googleAuth = Provider.of<GoogleSignInProvider>(context);
     final mediaquery = MediaQuery.of(context);
-    var selectedLocale = Localizations.localeOf(context).toString();
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
@@ -113,9 +112,9 @@ class _TabsScreenState extends State<TabsScreen> {
             selectedItemColor: Colors.red,
             currentIndex: _SelectedPageIndex,
             type: BottomNavigationBarType.fixed,
-            items: [
+            items: const [
               BottomNavigationBarItem(
-                  icon: const Padding(
+                  icon: Padding(
                     padding: EdgeInsets.fromLTRB(0.0, 5.0, 0.0, 0.0),
                     child: Icon(
                       Icons.home_outlined,
@@ -123,7 +122,7 @@ class _TabsScreenState extends State<TabsScreen> {
                   ),
                   label: 'Home'),
               BottomNavigationBarItem(
-                icon: const Padding(
+                icon: Padding(
                   padding: EdgeInsets.fromLTRB(0.0, 5.0, 0.0, 0.0),
                   child: Icon(
                     Icons.videocam_outlined,
