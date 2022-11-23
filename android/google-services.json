@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "463875638784",
+    "project_id": "swarabhaas",
+    "storage_bucket": "swarabhaas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463875638784:android:210ae8ad749a0b59e77ae5",
+        "android_client_info": {
+          "package_name": "com.example.swarabhaas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463875638784-06lgiuurbaho267pqdphc2dbitb6dapc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swarabhaas",
+            "certificate_hash": "adbacd138854718f2da6c410bbd48160b8da305a"
+          }
+        },
+        {
+          "client_id": "463875638784-1ubd1ehf694ivfe4kgdt8aalj0pvtkd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swarabhaas",
+            "certificate_hash": "d01be48eba59c41c236c6994765d919240372071"
+          }
+        },
+        {
+          "client_id": "463875638784-465hgrs3tak7kg17u89fps55j19tt358.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swarabhaas",
+            "certificate_hash": "a0ac509a8fa23e32531147533e806ba73ce50157"
+          }
+        },
+        {
+          "client_id": "463875638784-crrrkc6td0sabntkca8ueo2f5opgs1o6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swarabhaas",
+            "certificate_hash": "e7b10127e9de20f7224fbfa7835cd86ae4ba5e76"
+          }
+        },
+        {
+          "client_id": "463875638784-lakv07jnjt2c3jkomusc86ooi3bh939n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swarabhaas",
+            "certificate_hash": "877087bb6cc730b61232322fba931ed5ab8f37bf"
+          }
+        },
+        {
+          "client_id": "463875638784-8fktne1ogjbodglhan9ge9odhb3dj5ti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpGoBPjnde9avujhIVl3KxpFLUn0np_wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463875638784-8fktne1ogjbodglhan9ge9odhb3dj5ti.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "463875638784-a1eseek2tor3fj1bqqtasrl3u6q177hg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.swarabhaas"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463875638784:android:90798fbb1d7aaf83e77ae5",
+        "android_client_info": {
+          "package_name": "com.example.vritant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463875638784-3r2l81del2kbs5pmsamsudr8bbbbqu5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vritant",
+            "certificate_hash": "877087bb6cc730b61232322fba931ed5ab8f37bf"
+          }
+        },
+        {
+          "client_id": "463875638784-8fktne1ogjbodglhan9ge9odhb3dj5ti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpGoBPjnde9avujhIVl3KxpFLUn0np_wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463875638784-8fktne1ogjbodglhan9ge9odhb3dj5ti.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "463875638784-a1eseek2tor3fj1bqqtasrl3u6q177hg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.swarabhaas"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
