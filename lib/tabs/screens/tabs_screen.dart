@@ -125,7 +125,7 @@ class _TabsScreenState extends State<TabsScreen> {
                 icon: Padding(
                   padding: EdgeInsets.fromLTRB(0.0, 5.0, 0.0, 0.0),
                   child: Icon(
-                    Icons.videocam_outlined,
+                    Icons.play_circle_outlined,
                   ),
                 ),
                 label: 'Playground',
