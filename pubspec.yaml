@@ -48,6 +48,9 @@ dependencies:
   path_provider: ^2.0.11
   flutter_archive: ^5.0.0
   animated_text_kit: ^4.2.2
+  just_audio: ^0.9.30
+  flutter_tts: ^3.6.2
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

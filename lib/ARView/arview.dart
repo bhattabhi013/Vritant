@@ -8,6 +8,7 @@ import 'package:ar_flutter_plugin/managers/ar_session_manager.dart';
 import 'package:ar_flutter_plugin/models/ar_node.dart';
 import 'package:flutter/material.dart';
 import 'package:vector_math/vector_math_64.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 
 class LocalAndWebObjectsView extends StatefulWidget {
   const LocalAndWebObjectsView({Key? key}) : super(key: key);
@@ -19,7 +20,7 @@ class LocalAndWebObjectsView extends StatefulWidget {
 class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
   late ARSessionManager arSessionManager;
   late ARObjectManager arObjectManager;
-
+  FlutterTts ftts = FlutterTts();
   //String localObjectReference;
   ARNode? localObjectNode;
 
@@ -69,8 +70,26 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
               children: [
                 Expanded(
                   child: ElevatedButton(
-                      onPressed: onLocalObjectButtonPressed,
-                      child: const Text("Add / Remove Local Object")),
+                      onPressed: () async {
+                        //your custom configuration
+                        await ftts.setLanguage("en-US");
+                        await ftts.setSpeechRate(0.5); //speed of speech
+                        await ftts.setVolume(1.0); //volume of speech
+                        await ftts.setPitch(1); //pitc of sound
+
+                        //play text to sp
+                        var result = await ftts.speak(
+                            "Five little ducks went swimming one day Three little ducks went swimming one day");
+                        if (result == 1) {
+                          //speaking
+                        } else {
+                          //not speaking
+                        }
+                      },
+                      child: Text("Text to Speech")),
+                  // ElevatedButton(
+                  //     onPressed: onLocalObjectButtonPressed,
+                  //     child: const Text("Play")),
                 ),
                 const SizedBox(
                   width: 10,
