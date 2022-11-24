@@ -70,9 +70,11 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
               ),
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Expanded(
-                  child: ElevatedButton(
+                Column(
+                  children: [
+                    ElevatedButton(
                       onPressed: () async {
                         //your custom configuration
                         await ftts.setLanguage("en-US");
@@ -88,19 +90,14 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
                           //not speaking
                         }
                       },
-                      child: Text("Play")),
-                  // ElevatedButton(
-                  //     onPressed: onLocalObjectButtonPressed,
-                  //     child: const Text("Play")),
-                ),
-                const SizedBox(
-                  width: 10,
-                ),
-                Expanded(
-                  child: ElevatedButton(
+                      child: Text("Play 📢"),
+                    ),
+                    ElevatedButton(
                       onPressed: onWebObjectAtButtonPressed,
-                      child: const Text("Add / Remove Web Object")),
-                )
+                      child: Text("Add➕ / Remove❌ Web Object"),
+                    ),
+                  ],
+                ),
               ],
             ),
           ],
