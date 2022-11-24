@@ -19,20 +19,20 @@ class LoginWidget extends StatelessWidget {
         children: [
           ClipRRect(
             borderRadius: BorderRadius.circular(1.0),
-            child: SvgPicture.asset(
-              'assets/images/swarabhaas.svg',
+            child: Image.asset(
+              'assets/images/vr.png',
               fit: BoxFit.scaleDown,
-              width: mediaquery.size.width * 0.5,
+              width: mediaquery.size.width * 0.6,
               height: mediaquery.size.height * 0.2,
             ),
           ),
           ClipRRect(
             borderRadius: BorderRadius.circular(1.0),
-            child: SvgPicture.asset(
-              'assets/images/login_icon.svg',
-              fit: BoxFit.cover,
-              width: mediaquery.size.width * 0.5,
-              height: mediaquery.size.height * 0.3,
+            child: Image.asset(
+              'assets/images/logo.png',
+              fit: BoxFit.scaleDown,
+              width: mediaquery.size.width * 0.9,
+              height: mediaquery.size.height * 0.4,
             ),
           ),
           // TextButton.icon(

@@ -39,10 +39,10 @@ class _TabsScreenState extends State<TabsScreen> {
         backgroundColor: Colors.white12,
         foregroundColor: Colors.black,
         title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Text(
-              'Hi',
+              'Hi    ',
               softWrap: true,
               style: const TextStyle(
                 fontFamily: 'Open-Sauce-Sans',
