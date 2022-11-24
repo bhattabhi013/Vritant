@@ -25,8 +25,8 @@ class _HomePageState extends State<HomePage> {
             // horizontal, this produces 2 rows.
             crossAxisCount: 2,
             // Generate 4 widgets that display their index in the List.
-            children: List.generate(10, (index) {
-              return Container(
+            children: [
+              Container(
                 color: Colors.blue[100],
                 height: mediaquery.size.height * 0.5,
                 width: mediaquery.size.width * 0.5,
@@ -54,8 +54,95 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                 ),
-              );
-            }),
+              ),
+              Container(
+                color: Colors.blue[100],
+                height: mediaquery.size.height * 0.5,
+                width: mediaquery.size.width * 0.5,
+                margin: const EdgeInsets.all(5),
+                padding: const EdgeInsets.all(5),
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      Image.asset('assets/images/lang_icon.png',
+                          height: 120, width: 120, fit: BoxFit.fitWidth),
+                      Container(
+                        padding: const EdgeInsets.only(left: 5, right: 5),
+                        decoration: const BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(20))),
+                        child: TextButton(
+                          child: const Text(
+                            "Explore it Live →",
+                            style: TextStyle(color: Colors.white, fontSize: 12),
+                          ),
+                          onPressed: () => _doSome(context),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Container(
+                color: Colors.blue[100],
+                height: mediaquery.size.height * 0.5,
+                width: mediaquery.size.width * 0.5,
+                margin: const EdgeInsets.all(5),
+                padding: const EdgeInsets.all(5),
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      Image.asset('assets/images/lang_icon.png',
+                          height: 120, width: 120, fit: BoxFit.fitWidth),
+                      Container(
+                        padding: const EdgeInsets.only(left: 5, right: 5),
+                        decoration: const BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(20))),
+                        child: TextButton(
+                          child: const Text(
+                            "Explore it Live →",
+                            style: TextStyle(color: Colors.white, fontSize: 12),
+                          ),
+                          onPressed: () => _doSome(context),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Container(
+                color: Colors.blue[100],
+                height: mediaquery.size.height * 0.5,
+                width: mediaquery.size.width * 0.5,
+                margin: const EdgeInsets.all(5),
+                padding: const EdgeInsets.all(5),
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      Image.asset('assets/images/lang_icon.png',
+                          height: 120, width: 120, fit: BoxFit.fitWidth),
+                      Container(
+                        padding: const EdgeInsets.only(left: 5, right: 5),
+                        decoration: const BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(20))),
+                        child: TextButton(
+                          child: const Text(
+                            "Explore it Live →",
+                            style: TextStyle(color: Colors.white, fontSize: 12),
+                          ),
+                          onPressed: () => _doSome(context),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              )
+            ],
           ),
         ),
       ),
