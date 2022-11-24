@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       onPressed: () => _doSome(
                           context,
-                          "One little duck went swimming one day Over the hill and far away Mother duck said, Quack quack quack quack And all her five little ducks came back!",
+                          "One little duck went swimming one day \n Over the hill and far away \n Mother duck said, Quack quack quack quack \n And all her five little ducks came back!",
                           "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Duck/glTF-Binary/Duck.glb"),
                     ),
                   ),
@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       onPressed: () => _doSome(
                         context,
-                        "Moon! Sun! Shiny and silver, Moon! Sun! Shiny and gold. Moon! Sun! Shine on the young ones, Shine until they grow old. Shine, shine, shine, shine,",
+                        "Moon! Sun! Shiny and silver, \n Moon! Sun! Shiny and gold. \n Moon! Sun! Shine on the young ones, \n Shine until they grow old. Shine, shine, shine, shine,",
                         "https://github.com/bhattabhi013/ar_Demo/raw/master/assets/Sun_1_1391000.glb",
                       ),
                     ),
@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       onPressed: () => _doSome(
                           context,
-                          "The wheels on the bus go round and round Round and round. Round and round. The wheels on the bus go round and round, All through the town! ",
+                          "The wheels on the bus go round and round \n Round and round. \n Round and round. \n The wheels on the bus go round and round, \n All through the town! ",
                           "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/CesiumMilkTruck/glTF-Binary/CesiumMilkTruck.glb"),
                     ),
                   ),
@@ -141,7 +141,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       onPressed: () => _doSome(
                           context,
-                          "This is the house that Jack built. This is the malt that lay in the house that Jack built. This is the rat that ate the malt. That lay in the house that Jack built. This is the cat That killed the rat that ate the malt.",
+                          "This is the house that Jack built. \n This is the malt that lay in the house that Jack built. \n This is the rat that ate the malt. \n That lay in the house that Jack built. \n This is the cat \n That killed the rat that ate the malt.",
                           "https://github.com/bhattabhi013/ar_Demo/blob/master/assets/uploads_files_3979943_Low+Poly+House+c.glb?raw=true"),
                     ),
                   ),
@@ -172,7 +172,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       onPressed: () => _doSome(
                           context,
-                          "This is the house that Jack built. This is the malt that lay in the house that Jack built. This is the rat that ate the malt. That lay in the house that Jack built. This is the cat That killed the rat that ate the malt.",
+                          "This is the house that Jack built. \n This is the malt that lay in the house that Jack built. \n This is the rat that ate the malt. \n That lay in the house that Jack built. \n This is the cat \n That killed the rat that ate the malt.",
                           "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Lantern/glTF-Binary/Lantern.glb"),
                     ),
                   ),
