@@ -55,18 +55,28 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
             SizedBox(
               //width: MediaQuery.of(context).size.height * .6,
               height: MediaQuery.of(context).size.height * .1,
-              child: AnimatedTextKit(
-                animatedTexts: [
-                  TypewriterAnimatedText(
-                    widget.msg,
-                  ),
-                ],
-                totalRepeatCount: 4,
-                pause: const Duration(milliseconds: 2000),
-                displayFullTextOnTap: true,
-                onTap: () {
-                  print("Tap Event");
-                },
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(22),
+                ),
+                alignment: Alignment.center,
+                child: AnimatedTextKit(
+                  animatedTexts: [
+                    TypewriterAnimatedText(
+                      widget.msg,
+                      textStyle: const TextStyle(
+                        fontSize: 16.0,
+                        fontWeight: FontWeight.w300,
+                      ),
+                    ),
+                  ],
+                  totalRepeatCount: 4,
+                  pause: const Duration(milliseconds: 2000),
+                  displayFullTextOnTap: true,
+                  onTap: () {
+                    print("Tap Event");
+                  },
+                ),
               ),
             ),
             Row(
