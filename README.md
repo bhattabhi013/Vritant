@@ -81,6 +81,9 @@ To be updated
 
 ## ✍️ Authors <a name = "authors"></a>
 - [Abhishek Bhatt](https://github.com/bhattabhi013) - Idea & Initial work
+- [Syeda Reeha Quasar](https://github.com/syedareehaquasar)
+- [Sejal Jain](https://github.com/sejalcodes)
+- [Kashika Jain](https://github.com/kashika3101)
 
 ## 🎉 Acknowledgments <a name = "acknowledgments"></a>
 - [Text-to-speech](https://pub.dev/packages/flutter_tts)
