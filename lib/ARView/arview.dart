@@ -88,7 +88,7 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
                       onPressed: () async {
                         //your custom configuration
                         await ftts.setLanguage("en-US");
-                        await ftts.setSpeechRate(0.5); //speed of speech
+                        await ftts.setSpeechRate(0.3); //speed of speech
                         await ftts.setVolume(1.0); //volume of speech
                         await ftts.setPitch(1); //pitc of sound
 

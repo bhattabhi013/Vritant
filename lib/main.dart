@@ -15,7 +15,7 @@ Future<void> main() async {
 }
 
 class Vritant extends StatelessWidget {
-  Vritant({super.key});
+  const Vritant({super.key});
 
   // This widget is the root of your application.
   @override
@@ -45,6 +45,7 @@ class LandingPage extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Vritant',
+        debugShowCheckedModeBanner: false,
         home: LoginPage(),
         // routes: {'/routes': (ctx) => TabsScreen()},
       ),

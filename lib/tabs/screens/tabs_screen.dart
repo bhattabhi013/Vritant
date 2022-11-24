@@ -25,7 +25,7 @@ class _TabsScreenState extends State<TabsScreen> {
 
   @override
   void initState() {
-    _pages = [HomePage(), SavedRhymes()];
+    _pages = [HomePage(), ObjectGesturesWidget()];
     super.initState();
   }
 
