@@ -128,7 +128,7 @@ class _TabsScreenState extends State<TabsScreen> {
                     Icons.videocam_outlined,
                   ),
                 ),
-                label: 'Saved',
+                label: 'Playground',
               ),
             ],
           ),
