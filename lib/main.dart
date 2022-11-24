@@ -45,6 +45,7 @@ class LandingPage extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Vritant',
+        debugShowCheckedModeBanner: false,
         home: LoginPage(),
         // routes: {'/routes': (ctx) => TabsScreen()},
       ),
