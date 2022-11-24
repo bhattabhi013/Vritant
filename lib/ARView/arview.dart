@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:ar_flutter_plugin/ar_flutter_plugin.dart';
 import 'package:ar_flutter_plugin/datatypes/node_types.dart';
 import 'package:ar_flutter_plugin/managers/ar_anchor_manager.dart';
@@ -34,21 +35,34 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Local / Web Objects"),
-      ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             SizedBox(
-              height: MediaQuery.of(context).size.height * .8,
+              height: MediaQuery.of(context).size.height * .6,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(22),
                 child: ARView(
                   onARViewCreated: onARViewCreated,
                 ),
+              ),
+            ),
+            SizedBox(
+              //width: MediaQuery.of(context).size.height * .6,
+              height: MediaQuery.of(context).size.height * .1,
+              child: AnimatedTextKit(
+                animatedTexts: [
+                  TypewriterAnimatedText(
+                      'Five little ducks went swimming one day Three little ducks went swimming one day'),
+                ],
+                totalRepeatCount: 4,
+                pause: const Duration(milliseconds: 2000),
+                displayFullTextOnTap: true,
+                onTap: () {
+                  print("Tap Event");
+                },
               ),
             ),
             Row(

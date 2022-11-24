@@ -8,6 +8,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
+  animated_text_kit:
+    dependency: "direct main"
+    description:
+      name: animated_text_kit
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.2.2"
   ar_flutter_plugin:
     dependency: "direct main"
     description:

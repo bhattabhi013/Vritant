@@ -47,7 +47,7 @@ dependencies:
   ar_flutter_plugin: ^0.7.3
   path_provider: ^2.0.11
   flutter_archive: ^5.0.0
-
+  animated_text_kit: ^4.2.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
