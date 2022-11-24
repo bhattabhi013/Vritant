@@ -11,8 +11,10 @@ import 'package:vector_math/vector_math_64.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
 class LocalAndWebObjectsView extends StatefulWidget {
-  const LocalAndWebObjectsView({Key? key}) : super(key: key);
-
+  LocalAndWebObjectsView({Key? key, required this.msg, required this.imgUrl})
+      : super(key: key);
+  String msg;
+  String imgUrl;
   @override
   State<LocalAndWebObjectsView> createState() => _LocalAndWebObjectsViewState();
 }
@@ -56,7 +58,8 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
               child: AnimatedTextKit(
                 animatedTexts: [
                   TypewriterAnimatedText(
-                      'Five little ducks went swimming one day Three little ducks went swimming one day'),
+                    widget.msg,
+                  ),
                 ],
                 totalRepeatCount: 4,
                 pause: const Duration(milliseconds: 2000),
@@ -78,15 +81,14 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
                         await ftts.setPitch(1); //pitc of sound
 
                         //play text to sp
-                        var result = await ftts.speak(
-                            "Five little ducks went swimming one day Three little ducks went swimming one day");
+                        var result = await ftts.speak(widget.msg);
                         if (result == 1) {
                           //speaking
                         } else {
                           //not speaking
                         }
                       },
-                      child: Text("Text to Speech")),
+                      child: Text("Play")),
                   // ElevatedButton(
                   //     onPressed: onLocalObjectButtonPressed,
                   //     child: const Text("Play")),
@@ -148,9 +150,8 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
     } else {
       var newNode = ARNode(
           type: NodeType.webGLB,
-          uri:
-              //   "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/RiggedFigure/glTF-Binary/RiggedFigure.glb",
-              "https://github.com/bhattabhi013/ar_Demo/raw/master/assets/twink_twink.glb",
+          uri: widget.imgUrl,
+          //   "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/RiggedFigure/glTF-Binary/RiggedFigure.glb",
           //"https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/BrainStem/glTF-Binary/BrainStem.glb",
           scale: Vector3(0.2, 0.2, 0.2));
       bool? didAddWebNode = await arObjectManager.addNode(newNode);
