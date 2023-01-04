@@ -27,6 +27,7 @@
 - [Setting up a local environment](#getting_started)
 - [Usage](#usage)
 - [Technology Stack](#tech_stack)
+- [How to Contribute](#how_contribute)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
@@ -83,6 +84,40 @@ To be updated
 - [Unity](https://unity.com/) - 3d models
 - [Flutter](https://flutter.dev/) - Mobile App
 - [Augmented reailty](https://pub.dev/packages/ar_flutter_plugin) - AR
+
+## How to Start Contributing <a name = "how_contribute"></a>
+1. Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
+2. Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
+3. Open a terminal and run the following git command:
+      ```
+      git clone "url you just copied"
+      ```
+   where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+   For example:
+      ```
+      git clone https://github.com/your_username/Vritant.git
+      ```
+4. Now create a branch using the 'git switch' command in repository directory:
+      ```
+      git switch -c your-new-branch-name
+      ```
+5. Make necessary changes and commit those changes. Add those changes to the branch you just created using the 'git add' command:
+      ```
+      git add .
+      ```
+    Now commit those changes using the 'git commit' command:
+      ```
+      git commit -m "Add your title here"
+      ```
+6. Push your changes using the command git push:
+      ```
+      git push -u origin your-branch-name
+      ```
+      replacing your-branch-name with the name of the branch you created earlier.
+      
+7. Submit your changes for review 
+    If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button. Now add appropriate title and comment on it and submit
+    the pull request.
 
 ## ✍️ Authors <a name = "authors"></a>
 - [Abhishek Bhatt](https://github.com/bhattabhi013) - Idea & Initial work
