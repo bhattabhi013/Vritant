@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:vritant/firebase_options.dart';
 import 'package:vritant/login/providers/google_auth_provider.dart';
 import 'package:vritant/login/screens/login.dart';
+import 'package:vritant/tabs/screens/tabs_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -46,7 +47,8 @@ class LandingPage extends StatelessWidget {
       child: MaterialApp(
         title: 'Vritant',
         debugShowCheckedModeBanner: false,
-        home: LoginPage(),
+        // home: LoginPage(),   // enable google sign-in
+        home: TabsScreen(),
         // routes: {'/routes': (ctx) => TabsScreen()},
       ),
     );
