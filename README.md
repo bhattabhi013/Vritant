@@ -28,7 +28,6 @@
 - [Usage](#usage)
 - [Technology Stack](#tech_stack)
 - [How to Contribute](#how_contribute)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
 - [Demo](#demo)
