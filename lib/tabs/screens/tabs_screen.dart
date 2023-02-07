@@ -42,7 +42,7 @@ class _TabsScreenState extends State<TabsScreen> {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Text(
-              'Hi    ',
+              'Hi, ',
               softWrap: true,
               style: const TextStyle(
                 fontFamily: 'Open-Sauce-Sans',
@@ -51,7 +51,8 @@ class _TabsScreenState extends State<TabsScreen> {
             ),
             Flexible(
               child: Text(
-                ' ${user?.displayName.toString()}',
+                "Welcome to Vritant",
+                // ' ${user?.displayName.toString()}',
                 overflow: TextOverflow.ellipsis,
                 style: const TextStyle(
                   fontFamily: 'Open-Sauce-Sans',
