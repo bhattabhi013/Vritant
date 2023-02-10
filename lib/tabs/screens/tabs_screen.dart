@@ -141,9 +141,6 @@ class _TabsScreenState extends State<TabsScreen> {
   void changeLang() {}
 
   void signOut(GoogleSignInProvider gAuth) {
-    if (user!.providerData[0].providerId == "google.com") {
-      // signed via google
-      gAuth.handleSignOut();
-    }
+    gAuth.handleSignOut();
   }
 }
