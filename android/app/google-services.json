@@ -15,15 +15,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "410079293980-3us9m0k97hm9utr02jttu4dqierqr3ga.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.vritant",
-            "certificate_hash": "b69deaaa5412500b41c2b23de5258b48697899c7"
-          }
-        },
-        {
-          "client_id": "410079293980-anmrbgabnbitn23qphucujidm400pfb3.apps.googleusercontent.com",
+          "client_id": "410079293980-m65cqngrokeen1ojoh6vidrfd3000sig.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -36,15 +28,8 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "410079293980-anmrbgabnbitn23qphucujidm400pfb3.apps.googleusercontent.com",
+              "client_id": "410079293980-m65cqngrokeen1ojoh6vidrfd3000sig.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "410079293980-9p4srp8a98l8p095h82v9lo7rjm5o640.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.vritant"
-              }
             }
           ]
         }
