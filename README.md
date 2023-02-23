@@ -137,3 +137,18 @@ To be updated
 
 <br>
 
+
+<h1 align=center> Project Admin 💻</h1>
+
+  <p align="center">
+  <a href="https://github.com/bhattabhi013"><img src="https://avatars.githubusercontent.com/bhattabhi013" width="20%" /></a>
+
+
+<h1 align=center> Our Amazing Contributors 👨‍👨‍👦‍👦❤️</h1>
+
+Thanks to all the contributors who worked for this project to stay alive! 😊😎
+
+<a align="center" href="https://github.com/bhattabhi013/Vritant/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=bhattabhi013/Vritant&&max=817" />  
+</a>
+
