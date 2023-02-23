@@ -127,3 +127,34 @@ To be updated
 ## 🎉 Acknowledgments <a name = "acknowledgments"></a>
 - [Text-to-speech](https://pub.dev/packages/flutter_tts)
 - [Ar Flutter plugin](https://pub.dev/packages/ar_flutter_plugin)
+
+
+# <h1 align=center>🧑‍💻 CONTRIBUTION 👏</h1>
+
+- Contributions make the open source community such an amazing place to learn, inspire, and create.
+- Any contributions you make are greatly appreciated.
+- Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
+
+<br>
+
+
+<h1 align=center> Project Admin 💻</h1>
+
+  <p align="center">
+  <a href="https://github.com/bhattabhi013"><img src="https://avatars.githubusercontent.com/bhattabhi013" width="20%" /></a>
+
+
+<h1 align=center> Our Amazing Contributors 👨‍👨‍👦‍👦❤️</h1>
+
+Thanks to all the contributors who worked for this project to stay alive! 😊😎
+
+<a align="center" href="https://github.com/bhattabhi013/Vritant/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=bhattabhi013/Vritant&&max=817" />  
+</a>
+
+---
+<div align="center">
+    <h3><b>Take a moment to star ⭐ the project if you like it</b></h3>
+    <h3>Do checkout the other repos 💫</h3> 
+</div>
+
