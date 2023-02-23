@@ -14,6 +14,26 @@
 </div>
 
 ---
+<h3 align="center">Workflow of the Project</h3>
+
+📌 Gathering information about how to target audience. Analyze user needs and preferences. <br>
+📌 Developing a project plan that includes project scope, timelines, milestones,resources, and budget. <br>
+📌 Based on user research, define the key features . Identify the user interface design, navigation, and user experience requirements. <br>
+📌 Develop it using the appropriate programming languages and frameworks. <br>
+📌 Testing  the app thoroughly to ensure its quality, usability, and performance. <br>
+📌 Releasing the app <br>
+📌 Continuously improve the app's features, design, and functionality based on user <br>
+
+---
+
+<h3 align="center">Aim of the Project</h3>
+
+📌 We provide an engaging and interactive learning platform for young children to learn and understand nursery rhymes in a fun way <br>
+📌 We aim to incorporate features such 3D <br>
+📌 We aim cross-platform nature of the application aims to make it easily accessible to a wide range of users, regardless of their device or operating system. <br>
+📌 Overall, the aim of the project is to promote early childhood education and make learning fun and engaging for young children. <br>
+
+---
 
 <p align="center"> Few lines describing your project.
     <br> 
