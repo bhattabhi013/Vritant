@@ -127,3 +127,12 @@ To be updated
 ## 🎉 Acknowledgments <a name = "acknowledgments"></a>
 - [Text-to-speech](https://pub.dev/packages/flutter_tts)
 - [Ar Flutter plugin](https://pub.dev/packages/ar_flutter_plugin)
+
+
+# <h1 align=center>🧑‍💻 CONTRIBUTION 👏</h1>
+
+- Contributions make the open source community such an amazing place to learn, inspire, and create.
+- Any contributions you make are greatly appreciated.
+- Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
+
+<br>
