@@ -16,14 +16,14 @@
 ---
 <h3 align="center">Workflow of the Project</h3>
 
-📌 We have firstly identify the need of children like theri problems in studying <br>
+📌 We have firstly identify the need of children like their problems in studying <br>
 📌 First of all when user will get to our app ,there will be Google authentication for login. <br>
 📌 User can login by their mail as it is easy to do <br>
 📌 Google authentication is very secured to use <br>
 📌 We have many rhymes for vast variety of choice <br>
-📌 One can read the text and one can also play the text, as for kids reading one is hard so they can play the text also <br>
+📌 One can read the text and also play with it using text-to-speech functionality, as for kids reading one is hard so they can listen to the text as well <br>
 📌 We have feature of 3-D models present for rhymes which will make understanding more good by visualising it live <br>
-📌 A section Playground is also presnt in that user can experience AR in real life which leads to more clearity of rhymes <br>
+📌 A section Playground is also present in that user can experience AR in real life which leads to more clearity of rhymes <br>
 📌 User can create many senses of 3-D models and they can rotate it and play with it <br>
 📌 We have made this application like if user want to move the model they can as it gets automatic aligned <br>
 📌 User can alseo zoom in and zoom out the models <br>
@@ -36,7 +36,7 @@
 📌 Vritant is purely made by new and unique ideas <br> 
 📌 We have made it in such a way that kids will not be bored while learning <br>
 📌 Vritant is easily accesible to all <br>
-📌 There is no paying of money to acess the app and features alsoas it is completely free <br>
+📌 There is no need to pay money as the app is free <br>
 📌 Vritant targets kids to learn in fun without any pressure <br>
 
 ---
