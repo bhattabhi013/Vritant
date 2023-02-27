@@ -1,10 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.vritant">
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <queries>
     <intent>
         <action android:name="android.intent.action.TTS_SERVICE" />
     </intent>
-</queries>
+</queries>  
    <application
         android:label="vritant"
         android:name="${applicationName}"
