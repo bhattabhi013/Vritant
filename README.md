@@ -46,17 +46,24 @@
 </p>
 
 ## 📝 Table of Contents
-- [Problem Statement](#problem_statement)
-- [Idea / Solution](#idea)
-- [Dependencies / Limitations](#limitations)
-- [Future Scope](#future_scope)
-- [Setting up a local environment](#getting_started)
-- [Usage](#usage)
-- [Technology Stack](#tech_stack)
-- [How to Contribute](#how_contribute)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
-- [Demo](#demo)
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+      <li><a href="#problem_statement">Problem Statement</a></li>
+      <li><a href="#idea">Idea / Solution</a></li>
+      <li><a href="#limitations">Dependencies / Limitations</a></li>
+      <li><a href="#future_scope">Future Scope</a></li>
+      <li><a href="#usage">Usage</a></li>
+      <li><a href="#getting_started">Setting up a local environment</a></li>
+      <li><a href="#tech_stack">Technology Stack</a></li>
+      <li><a href="#how_contribute">How to Contribute</a></li>
+      <li><a href="#authors">Authors</a></li>
+      <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#demo">Demo</a></li>
+  </ol>
+</details>
+
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
