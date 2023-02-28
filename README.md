@@ -144,6 +144,126 @@ To be updated
     If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button. Now add appropriate title and comment on it and submit
     the pull request.
 
+## 💻 How to run the project on local system? <a name = "local_system"></a>
+
+- To run Flutter App on a Physical Device & Online Emulator(Android/Ios) :
+### Online Emulator [Android OS | Android Studio/Vs Code ]
+
+1. On Android Studio -> Tools > AVD Manager and click  "Create Virtual Device".
+
+2. Choose any device model  and click on "Next".
+
+3.  List of Recommended files, API, SDK, tools to download will be Listed now  again click on "Next".
+
+4.  After that  give name to your emulator and finally click on "Finish".
+
+5. After configuration, you will see the list of emulators just click on the "Play" button to run an emulator. 
+
+6. You much have a running emulator to run your application.
+
+### Online Emulator [MAC/Ios OS | X- Code/Vs Code ]
+
+1. On your Mac, find the Simulator via Spotlight or by using the following command:
+
+       $ open -a Simulator
+      
+2. Make sure your simulator is using a 64-bit device (iPhone 5s or later). You can check the device by viewing the settings in the simulator’s Hardware > Device or File > Open Simulator menus.
+
+3. Depending on your development machine’s screen size, simulated high-screen-density iOS devices might overflow your screen. Grab the corner of the simulator and drag it to change the scale. You can also use the Window > Physical Size or Window > Pixel Accurate options if your computer’s resolution is high enough.
+
+4. Create a new Flutter app:
+
+       $ flutter create my_app
+
+5. A my_app directory is created  containing Flutter’s starter app. Enter this directory:
+
+         $ cd my_app
+
+6. To launch the app in the Simulator, ensure that the Simulator is running and enter:
+
+         $  flutter run
+
+
+
+
+
+### Physical  Devices [Android OS] 
+
+1. Go to Settings -> Developer Options [Default: Not Activated] 
+
+2. Go to About Phone -> Software Information -> Build Number   and click multiple Times on it to enable Developer Option 
+
+3. Go to the Developer Options -> Turn it On and  scroll and turn the "USB Debugging" On and Allow the Debugging
+
+4. Connect your Mobile Device and Computer with a USB
+
+5. Click ok to the Prompt "Allow USB Debugging on this Computer"
+
+6. Go to the Terminal and run "Flutter Doctor " to make sure everything is located well 
+
+7. Go to the IDE and Choose your Real Device name on the Dropdown menu of Device Section and hit Run 
+
+8. Enjoy a Fast Excecution with USB Debugging and launch your app on your Real Device.
+
+### Physical  Devices [ IOS] 
+
+- To deploy  Flutter app to a physical iPhone/iPad first set up physical device deployment in Xcode and an Apple Developer account. 
+- If your app is using Flutter plugins, you will also need the third-party CocoaPods dependency manager.
+
+- The first time you use an attached physical device for iOS development, you need to trust both your Mac and the Development Certificate on that device. 
+- On iOS 16 and higher you must also enable Developer Mode.
+
+- Select Trust in the dialog prompt when first connecting the iOS device to your Mac.
+
+-  Go to  Settings ->  General > Device Management and trust your Certificate. 
+- For first time usersGeneral > Profiles > Device Management instead.
+-  On iOS 16 and higher, navigate back to the top level of the Settings app, select Privacy & Security > Developer Mode, and toggle Developer Mode on.
+
+- Follow the Xcode signing flow to provision your project:
+
+- Open the default Xcode workspace in project by running open ios/Runner.xcworkspace in a terminal  from your  project directory.
+
+- Select the device you intend to deploy to in the device drop-down menu next  the run .
+
+- Select the Runner project in the left navigation panel.
+
+- In the Runner target settings page, make sure your Development Team is selected under Signing & Capabilities > Team.
+
+- When you select a team, Xcode creates and downloads a Development Certificate, registers your device with your account, and creates and downloads a provisioning profile (if needed).
+
+- To start your first iOS development project  sign into Xcode with your Apple ID.
+
+- For details about membership types, see Choosing a Membership.
+
+- If automatic signing fails in Xcode, verify that the project’s General > Identity > Bundle Identifier value is unique.
+
+- Start your app by running flutter run or clicking the Run button in Xcode.
+
+
+
+### Common Bugs on a Physical Device
+ 1. Device not Found ❌
+
+- Go to the Terminal type Command "Flutter Devices"
+- This Verifies Whether Flutter recognise your Connected device
+- Disable USB Debugging and Turn it on again
+
+2. Android SDK not Configured  ❌
+
+- Go to Android Studio -> Settings  
+- Search for Android SDK and Copy the Location Path
+- Go Back to the Terminal and type flutter config --android-sdk and then copy your Path ahead of it
+
+3. Android Licenses  Status Unknown   ❌
+
+- Go to Terminal run Command flutter doctor --android-licenses
+- Accept (y/n) : Y to accept Licenses 
+
+
+
+
+
+
 ## ✍️ Authors <a name = "authors"></a>
 - [Abhishek Bhatt](https://github.com/bhattabhi013) - Idea & Initial work
 - [Syeda Reeha Quasar](https://github.com/syedareehaquasar)
