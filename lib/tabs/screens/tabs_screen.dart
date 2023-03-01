@@ -51,8 +51,8 @@ class _TabsScreenState extends State<TabsScreen> {
             ),
             Flexible(
               child: Text(
-                "Welcome to Vritant",
-                // ' ${user?.displayName.toString()}',
+                // "Welcome to Vritant",
+                ' ${user?.displayName.toString()}',
                 overflow: TextOverflow.ellipsis,
                 style: const TextStyle(
                   fontFamily: 'Open-Sauce-Sans',
@@ -141,9 +141,6 @@ class _TabsScreenState extends State<TabsScreen> {
   void changeLang() {}
 
   void signOut(GoogleSignInProvider gAuth) {
-    if (user!.providerData[0].providerId == "google.com") {
-      // signed via google
-      gAuth.handleSignOut();
-    }
+    gAuth.handleSignOut();
   }
 }
