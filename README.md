@@ -110,7 +110,19 @@ To be updated
 - [Flutter](https://flutter.dev/) - Mobile App
 - [Augmented reailty](https://pub.dev/packages/ar_flutter_plugin) - AR
 
-## How to Start Contributing <a name = "how_contribute"></a>
+## :computer: How to Start Contributing <a name = "how_contribute"></a>
+Before contributing let's learn how to set up the project in the local system.
+### How to run the project in local system
+- First fork this repository from the option given at the top of this page.
+- Now clone the forked repository by running this command in the terminal:<br>
+```
+git clone https://github.com/<your-username>/Vritant.git
+```
+- Either create an android emulator or connect a physical device to run the project.
+- Now go to the Run command and choose Run without debugging or simply press Ctrl + F5.
+- The project is all set up now!
+### How to Contribute
+Now that the project is properly setup, follow these steps to make your first contribution :
 1. Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
 2. Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
 3. Open a terminal and run the following git command:
