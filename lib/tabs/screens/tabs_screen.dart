@@ -40,9 +40,15 @@ class _TabsScreenState extends State<TabsScreen> {
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
-            const DrawerHeader(
-              decoration: BoxDecoration(color: Colors.blue),
-              child: Text('Drawer Header'),
+            DrawerHeader(
+              decoration: BoxDecoration(color: Colors.blue[100]),
+              child: Container(
+                alignment: Alignment.bottomLeft,
+                child: const Text(
+                  'Vritant',
+                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                ),
+              ),
             ),
             ListTile(
               leading: const Icon(Icons.home),
@@ -52,7 +58,7 @@ class _TabsScreenState extends State<TabsScreen> {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.home),
+              leading: const Icon(Icons.contact_mail),
               title: const Text('Contact us'),
               onTap: () {
                 navToPage(const ContactUs());
