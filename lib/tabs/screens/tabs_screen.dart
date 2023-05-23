@@ -6,6 +6,8 @@ import 'package:vritant/Favourite/savedRhymes.dart';
 import 'package:vritant/Home/screens.dart';
 import 'package:vritant/login/providers/google_auth_provider.dart';
 import 'package:vritant/tabs/provider/localProvider.dart';
+import 'package:vritant/tabs/screens/about_us.dart';
+import 'package:vritant/tabs/screens/contact_us.dart';
 
 class TabsScreen extends StatefulWidget {
   const TabsScreen();
@@ -45,12 +47,16 @@ class _TabsScreenState extends State<TabsScreen> {
             ListTile(
               leading: const Icon(Icons.home),
               title: const Text('About us'),
-              onTap: () {},
+              onTap: () {
+                navToPage(const AboutUs());
+              },
             ),
             ListTile(
               leading: const Icon(Icons.home),
               title: const Text('Contact us'),
-              onTap: () {},
+              onTap: () {
+                navToPage(const ContactUs());
+              },
             ),
           ],
         ),
@@ -166,5 +172,12 @@ class _TabsScreenState extends State<TabsScreen> {
       // signed via google
       gAuth.handleSignOut();
     }
+  }
+
+  void navToPage(Widget widget) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => widget),
+    );
   }
 }
