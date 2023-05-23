@@ -34,6 +34,27 @@ class _TabsScreenState extends State<TabsScreen> {
     final googleAuth = Provider.of<GoogleSignInProvider>(context);
     final mediaquery = MediaQuery.of(context);
     return Scaffold(
+      drawer: Drawer(
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: [
+            const DrawerHeader(
+              decoration: BoxDecoration(color: Colors.blue),
+              child: Text('Drawer Header'),
+            ),
+            ListTile(
+              leading: const Icon(Icons.home),
+              title: const Text('About us'),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: const Icon(Icons.home),
+              title: const Text('Contact us'),
+              onTap: () {},
+            ),
+          ],
+        ),
+      ),
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.white12,
