@@ -84,7 +84,8 @@ To be updated
 
 ## Video Demo:
 
-<iframe width="1349" height="480" src="https://www.youtube.com/embed/pZJ-Nz6inIE" title="Vritaant demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://github.com/Pratik-11/Vritant/assets/72139212/368c1eae-c270-4833-8199-0423ea9145cd
+
 
 ## 🚀 Future Scope <a name = "future_scope"></a>
 - We will provide the option to create a 3D model of any image that the user scans in addition to the Playground feature's current functionality.
