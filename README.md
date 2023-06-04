@@ -81,8 +81,10 @@ To be updated
 
 ## Screenshots and Demo <a name = "demo"></a>
 <img width="289" alt="image" src="https://user-images.githubusercontent.com/47862474/207318563-c90387fe-a73a-4cba-b22c-34a0813639e1.png">
-- Video Demo:
-https://youtu.be/pZJ-Nz6inIE
+
+## Video Demo:
+
+<iframe width="1349" height="480" src="https://www.youtube.com/embed/pZJ-Nz6inIE" title="Vritaant demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## 🚀 Future Scope <a name = "future_scope"></a>
 - We will provide the option to create a 3D model of any image that the user scans in addition to the Playground feature's current functionality.
