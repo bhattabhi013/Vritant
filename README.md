@@ -31,13 +31,13 @@
 ---
 <h3 align="center">Aim of the Project</h3>
 
-📌 Learning is easy and fun by Vritant <br>
-📌 Many features are there for best understanding of rhymes <br>
-📌 Vritant is purely made by new and unique ideas <br> 
-📌 We have made it in such a way that kids will not be bored while learning <br>
-📌 Vritant is easily accesible to all <br>
-📌 There is no need to pay money as the app is free <br>
-📌 Vritant targets kids to learn in fun without any pressure <br>
+📌 Facilitating Easy and Enjoyable Learning: Vritant aims to provide a learning environment that is both accessible and enjoyable for children. <br>
+📌 Comprehensive Features for Optimal Understanding: The application incorporates numerous features that enhance the comprehension of rhymes, ensuring a well-rounded learning experience. <br>
+📌 Innovation through Unique Concepts: Vritant stands out by employing innovative ideas, bringing a fresh perspective to the learning process. <br>
+📌 Preventing Boredom in Learning: By employing engaging methods and interactive content, Vritant ensures that children remain engaged and interested while learning. <br>
+📌 Universal Accessibility: Vritant is designed to be easily accessible to all users, regardless of their background or technological expertise. <br>
+📌 Free Application: The application is available to users at no cost, eliminating any financial barriers and allowing for widespread access. <br>
+📌 Fun Learning for Children: Vritant specifically targets children, providing them with a pressure-free, enjoyable learning experience. <br>
 
 ---
 
