@@ -137,9 +137,9 @@ To be updated
       ```
    Where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url. 
   - For example:
-    -  ```
+    - ```
       git clone https://github.com/your_username/Vritant.git
-       ```
+      ```
 - Now create a branch using the 'git switch' command in repository directory:
   -   ```
       git switch -c your-new-branch-name
