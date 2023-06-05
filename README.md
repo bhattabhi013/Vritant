@@ -42,13 +42,20 @@
 ---
 <h3 align="center">Aim of the Project</h3>
 
-📌 Facilitating Easy and Enjoyable Learning: Vritant aims to provide a learning environment that is both accessible and enjoyable for children. <br>
-📌 Comprehensive Features for Optimal Understanding: The application incorporates numerous features that enhance the comprehension of rhymes, ensuring a well-rounded learning experience. <br>
-📌 Innovation through Unique Concepts: Vritant stands out by employing innovative ideas, bringing a fresh perspective to the learning process. <br>
-📌 Preventing Boredom in Learning: By employing engaging methods and interactive content, Vritant ensures that children remain engaged and interested while learning. <br>
-📌 Universal Accessibility: Vritant is designed to be easily accessible to all users, regardless of their background or technological expertise. <br>
-📌 Free Application: The application is available to users at no cost, eliminating any financial barriers and allowing for widespread access. <br>
-📌 Fun Learning for Children: Vritant specifically targets children, providing them with a pressure-free, enjoyable learning experience. <br>
+- Facilitating Easy and Enjoyable Learning: 
+  - Vritant aims to provide a learning environment that is both accessible and enjoyable for children. <br>
+- Comprehensive Features for Optimal Understanding: 
+  - The application incorporates numerous features that enhance the comprehension of rhymes, ensuring a well-rounded learning experience. <br>
+- Innovation through Unique Concepts: 
+  - Vritant stands out by employing innovative ideas, bringing a fresh perspective to the learning process. <br>
+- Preventing Boredom in Learning: 
+  - By employing engaging methods and interactive content, Vritant ensures that children remain engaged and interested while learning. <br>
+- Universal Accessibility: 
+  - Vritant is designed to be easily accessible to all users, regardless of their background or technological expertise. <br>
+- Free Application: 
+  - The application is available to users at no cost, eliminating any financial barriers and allowing for widespread access. <br>
+- Fun Learning for Children: 
+  - Vritant specifically targets children, providing them with a pressure-free, enjoyable learning experience. <br>
 
 ---
 
@@ -103,14 +110,14 @@ group.
 - Increasing a wide variety of tracks to choose from like learning alphabets or numbers to fun rhymes, colors and shapes to keep the child engaged. 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-1. Clone the project or fork the project.
-2. Run 'pub get'.
-3. Enjoy the code.
+- Clone the project or fork the project.
+- Run 'pub get'.
+- Enjoy the code.
 
 ### Prerequisites
 
-1. Flutter 
-2. Git
+- Flutter 
+- Git
 
 ## 🎈 Usage <a name="usage"></a>
 To be updated
@@ -122,37 +129,37 @@ To be updated
 - [Augmented reailty](https://pub.dev/packages/ar_flutter_plugin) - AR
 
 ## How to Start Contributing <a name = "how_contribute"></a>
-1. Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
-2. Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
-3. Open a terminal and run the following git command:
-      ```
+- Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
+- Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
+- Open a terminal and run the following git command:
+  -   ```
       git clone "url you just copied"
       ```
-   where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
-   For example:
-      ```
+   Where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url. 
+  - For example:
+    -  ```
       git clone https://github.com/your_username/Vritant.git
-      ```
-4. Now create a branch using the 'git switch' command in repository directory:
-      ```
+       ```
+- Now create a branch using the 'git switch' command in repository directory:
+  -   ```
       git switch -c your-new-branch-name
       ```
-5. Make necessary changes and commit those changes. Add those changes to the branch you just created using the 'git add' command:
-      ```
+- Make necessary changes and commit those changes. Add those changes to the branch you just created using the 'git add' command:
+  -   ```
       git add .
       ```
     Now commit those changes using the 'git commit' command:
       ```
       git commit -m "Add your title here"
       ```
-6. Push your changes using the command git push:
-      ```
+- Push your changes using the command git push:
+  -   ```
       git push -u origin your-branch-name
       ```
       replacing your-branch-name with the name of the branch you created earlier.
       
-7. Submit your changes for review 
-    If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button. Now add appropriate title and comment on it and submit
+- Submit your changes for review: 
+    - If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button. Now add appropriate title and comment on it and submit
     the pull request.
 
 ## ✍️ Authors <a name = "authors"></a>
