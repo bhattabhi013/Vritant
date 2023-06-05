@@ -22,14 +22,22 @@
   - Upon accessing our application, users will be prompted to authenticate their identity through a secure Google authentication process. <br>
 - User-Friendly Login: 
   - Users can conveniently log in using their email address, ensuring a seamless login experience. <br>
-📌 Robust Security with Google Authentication: Google authentication provides a high level of security, ensuring the protection of user data and privacy. <br>
-📌 Extensive Selection of Rhymes: Our application offers a wide range of rhymes, catering to diverse preferences and interests. <br>
-📌 Enhanced Accessibility through Text-to-Speech Functionality: Users have the option to both read and listen to the rhymes using the text-to-speech functionality. This feature particularly benefits children who find reading challenging. <br>
-📌 Immersive 3-D Models: The application incorporates visually engaging 3-D models that enhance comprehension and provide a captivating learning experience. <br>
-📌 Interactive Playground: Our application includes an interactive playground where users can experience augmented reality (AR) technology, facilitating a clearer understanding of the rhymes. <br>
-📌 Manipulation of 3-D Models: Users can create multiple perspectives of the 3-D models, allowing them to rotate and interact with the models according to their preferences. <br>
-📌 Intuitive User Interface: The application's design ensures seamless movement of the models, automatically aligning them for easy user interaction. <br>
-📌 Zoom Functionality: Users have the ability to zoom in and zoom out on the 3-D models, enabling a detailed examination of the content. <br>
+- Robust Security with Google Authentication: 
+  - Google authentication provides a high level of security, ensuring the protection of user data and privacy. <br>
+- Extensive Selection of Rhymes: 
+  - Our application offers a wide range of rhymes, catering to diverse preferences and interests. <br>
+- Enhanced Accessibility through Text-to-Speech Functionality: 
+  - Users have the option to both read and listen to the rhymes using the text-to-speech functionality. This feature particularly benefits children who find reading challenging. <br>
+- Immersive 3-D Models: 
+  - The application incorporates visually engaging 3-D models that enhance comprehension and provide a captivating learning experience. <br>
+- Interactive Playground: 
+  - Our application includes an interactive playground where users can experience augmented reality (AR) technology, facilitating a clearer understanding of the rhymes. <br>
+- Manipulation of 3-D Models: 
+  - Users can create multiple perspectives of the 3-D models, allowing them to rotate and interact with the models according to their preferences. <br>
+- Intuitive User Interface: 
+  - The application's design ensures seamless movement of the models, automatically aligning them for easy user interaction. <br>
+- Zoom Functionality: 
+  - Users have the ability to zoom in and zoom out on the 3-D models, enabling a detailed examination of the content. <br>
 
 ---
 <h3 align="center">Aim of the Project</h3>
