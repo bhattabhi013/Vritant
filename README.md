@@ -110,14 +110,14 @@ group.
 - Increasing a wide variety of tracks to choose from like learning alphabets or numbers to fun rhymes, colors and shapes to keep the child engaged. 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-1. Clone the project or fork the project.
-2. Run 'pub get'.
-3. Enjoy the code.
+- Clone the project or fork the project.
+- Run 'pub get'.
+- Enjoy the code.
 
 ### Prerequisites
 
-1. Flutter 
-2. Git
+- Flutter 
+- Git
 
 ## 🎈 Usage <a name="usage"></a>
 To be updated
