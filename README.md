@@ -133,18 +133,18 @@ Before contributing let's learn how to set up the project in the local system.
 ### How to run the project in local system
 - First fork this repository from the option given at the top of this page.
 - Now clone the forked repository by running this command in the terminal:
-```
-git clone https://github.com/<your-username>/Vritant.git
-```
+  - ```
+    git clone https://github.com/<your-username>/Vritant.git
+    ``` 
 - Either create an android emulator or connect a physical device to run the project.
 - Now get to the root of your Flutter project using :
-```
-cd <name of your root>
-```
+  - ```
+    cd <name of your root>
+    ```
 - Run this command from the root of your Flutter project or simply press Ctrl + F5:
-```
-flutter run
-```
+  - ```
+    flutter run
+    ```
 - The project is all set up now!
 ### How to Contribute
 Now that the project is properly setup, follow these steps to make your first contribution :
