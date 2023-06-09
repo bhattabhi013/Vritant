@@ -16,28 +16,46 @@
 ---
 <h3 align="center">Workflow of the Project</h3>
 
-📌 We have firstly identify the need of children like their problems in studying <br>
-📌 First of all when user will get to our app ,there will be Google authentication for login. <br>
-📌 User can login by their mail as it is easy to do <br>
-📌 Google authentication is very secured to use <br>
-📌 We have many rhymes for vast variety of choice <br>
-📌 One can read the text and also play with it using text-to-speech functionality, as for kids reading one is hard so they can listen to the text as well <br>
-📌 We have feature of 3-D models present for rhymes which will make understanding more good by visualising it live <br>
-📌 A section Playground is also present in that user can experience AR in real life which leads to more clearity of rhymes <br>
-📌 User can create many senses of 3-D models and they can rotate it and play with it <br>
-📌 We have made this application like if user want to move the model they can as it gets automatic aligned <br>
-📌 User can alseo zoom in and zoom out the models <br>
+- Initial Needs Identification: 
+  - The project begins with a comprehensive analysis of children's educational needs and the challenges they face while studying. <br>
+- Secure User Authentication: 
+  - Upon accessing our application, users will be prompted to authenticate their identity through a secure Google authentication process. <br>
+- User-Friendly Login: 
+  - Users can conveniently log in using their email address, ensuring a seamless login experience. <br>
+- Robust Security with Google Authentication: 
+  - Google authentication provides a high level of security, ensuring the protection of user data and privacy. <br>
+- Extensive Selection of Rhymes: 
+  - Our application offers a wide range of rhymes, catering to diverse preferences and interests. <br>
+- Enhanced Accessibility through Text-to-Speech Functionality: 
+  - Users have the option to both read and listen to the rhymes using the text-to-speech functionality. This feature particularly benefits children who find reading challenging. <br>
+- Immersive 3-D Models: 
+  - The application incorporates visually engaging 3-D models that enhance comprehension and provide a captivating learning experience. <br>
+- Interactive Playground: 
+  - Our application includes an interactive playground where users can experience augmented reality (AR) technology, facilitating a clearer understanding of the rhymes. <br>
+- Manipulation of 3-D Models: 
+  - Users can create multiple perspectives of the 3-D models, allowing them to rotate and interact with the models according to their preferences. <br>
+- Intuitive User Interface: 
+  - The application's design ensures seamless movement of the models, automatically aligning them for easy user interaction. <br>
+- Zoom Functionality: 
+  - Users have the ability to zoom in and zoom out on the 3-D models, enabling a detailed examination of the content. <br>
 
 ---
 <h3 align="center">Aim of the Project</h3>
 
-📌 Learning is easy and fun by Vritant <br>
-📌 Many features are there for best understanding of rhymes <br>
-📌 Vritant is purely made by new and unique ideas <br> 
-📌 We have made it in such a way that kids will not be bored while learning <br>
-📌 Vritant is easily accesible to all <br>
-📌 There is no need to pay money as the app is free <br>
-📌 Vritant targets kids to learn in fun without any pressure <br>
+- Facilitating Easy and Enjoyable Learning: 
+  - Vritant aims to provide a learning environment that is both accessible and enjoyable for children. <br>
+- Comprehensive Features for Optimal Understanding: 
+  - The application incorporates numerous features that enhance the comprehension of rhymes, ensuring a well-rounded learning experience. <br>
+- Innovation through Unique Concepts: 
+  - Vritant stands out by employing innovative ideas, bringing a fresh perspective to the learning process. <br>
+- Preventing Boredom in Learning: 
+  - By employing engaging methods and interactive content, Vritant ensures that children remain engaged and interested while learning. <br>
+- Universal Accessibility: 
+  - Vritant is designed to be easily accessible to all users, regardless of their background or technological expertise. <br>
+- Free Application: 
+  - The application is available to users at no cost, eliminating any financial barriers and allowing for widespread access. <br>
+- Fun Learning for Children: 
+  - Vritant specifically targets children, providing them with a pressure-free, enjoyable learning experience. <br>
 
 ---
 
@@ -92,14 +110,14 @@ group.
 - Increasing a wide variety of tracks to choose from like learning alphabets or numbers to fun rhymes, colors and shapes to keep the child engaged. 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-1. Clone the project or fork the project.
-2. Run 'pub get'.
-3. Enjoy the code.
+- Clone the project or fork the project.
+- Run 'pub get'.
+- Enjoy the code.
 
 ### Prerequisites
 
-1. Flutter 
-2. Git
+- Flutter 
+- Git
 
 ## 🎈 Usage <a name="usage"></a>
 To be updated
@@ -115,53 +133,50 @@ Before contributing let's learn how to set up the project in the local system.
 ### How to run the project in local system
 - First fork this repository from the option given at the top of this page.
 - Now clone the forked repository by running this command in the terminal:
-```
-git clone https://github.com/<your-username>/Vritant.git
-```
+  - ```
+    git clone https://github.com/<your-username>/Vritant.git
+    ``` 
 - Either create an android emulator or connect a physical device to run the project.
 - Now get to the root of your Flutter project using :
-```
-cd <name of your root>
-```
+  - ```
+    cd <name of your root>
+    ```
 - Run this command from the root of your Flutter project or simply press Ctrl + F5:
-```
-flutter run
-```
+  - ```
+    flutter run
+    ```
 - The project is all set up now!
 ### How to Contribute
 Now that the project is properly setup, follow these steps to make your first contribution :
-1. Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
-2. Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
-3. Open a terminal and run the following git command:
-      ```
-      git clone "url you just copied"
-      ```
-   where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
-   For example:
-      ```
+- Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
+- Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
+- Open a terminal and run the following git command:
+  - ```
+    git clone "url you just copied"
+    ```
+    - Above where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+      
+  - For example:
+    - ```
       git clone https://github.com/your_username/Vritant.git
       ```
-4. Now create a branch using the 'git switch' command in repository directory:
-      ```
+- Now create a branch using the 'git switch' command in repository directory:
+  -   ```
       git switch -c your-new-branch-name
       ```
-5. Make necessary changes and commit those changes. Add those changes to the branch you just created using the 'git add' command:
-      ```
+- Make necessary changes and commit those changes. Add those changes to the branch you just created using the 'git add' command:
+  -   ```
       git add .
       ```
     Now commit those changes using the 'git commit' command:
       ```
       git commit -m "Add your title here"
       ```
-6. Push your changes using the command git push:
-      ```
+- Push your changes using the command git push:
+  -   ```
       git push -u origin your-branch-name
       ```
       replacing your-branch-name with the name of the branch you created earlier.
-      
-7. Submit your changes for review 
-    If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button. Now add appropriate title and comment on it and submit
-    the pull request.
 
 ## ✍️ Authors <a name = "authors"></a>
 - [Abhishek Bhatt](https://github.com/bhattabhi013) - Idea & Initial work
