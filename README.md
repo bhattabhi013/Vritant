@@ -3,14 +3,27 @@
  <img src="https://i.imgur.com/AZ2iWek.png" alt="Project logo"></a>
 </p>
 <h3 align="center">Vritant</h3>
-
+<div align="center">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+<img src="https://forthebadge.com/images/badges/uses-brains.svg" />
+<img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" />
+  <br></div>
 <div align="center">
 
   [![Hackathon](https://img.shields.io/badge/hackathon-SIH-Orange.svg)](http://hackathon.url.com) 
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
   [![GitHub Issues](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/bhattabhi013/Vritant/issues)
   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/bhattabhi013/Vritant/pulls)
-
+<img src="https://img.shields.io/github/repo-size/bhattabhi013/Vritant" />
+  <img src="https://img.shields.io/github/issues/bhattabhi013/Vritant" />
+  <img src="https://img.shields.io/github/issues-closed-raw/bhattabhi013/Vritant" />
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/bhattabhi013/Vritant" />
+  <img src="https://img.shields.io/github/issues-pr/bhattabhi013/Vritant" />
+  <img src="https://img.shields.io/github/forks/bhattabhi013/Vritant" />
+  <img src="https://img.shields.io/github/stars/bhattabhi013/Vritant" />
+  <img src="https://img.shields.io/github/contributors/bhattabhi013/Vritant" />
+  
+  
 </div>
 
 ---
