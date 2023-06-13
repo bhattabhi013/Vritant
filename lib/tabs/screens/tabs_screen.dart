@@ -6,6 +6,8 @@ import 'package:vritant/Favourite/savedRhymes.dart';
 import 'package:vritant/Home/screens.dart';
 import 'package:vritant/login/providers/google_auth_provider.dart';
 import 'package:vritant/tabs/provider/localProvider.dart';
+import 'package:vritant/tabs/screens/about_us.dart';
+import 'package:vritant/tabs/screens/contact_us.dart';
 
 class TabsScreen extends StatefulWidget {
   const TabsScreen();
@@ -34,6 +36,37 @@ class _TabsScreenState extends State<TabsScreen> {
     final googleAuth = Provider.of<GoogleSignInProvider>(context);
     final mediaquery = MediaQuery.of(context);
     return Scaffold(
+      drawer: Drawer(
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: [
+            DrawerHeader(
+              decoration: BoxDecoration(color: Colors.blue[100]),
+              child: Container(
+                alignment: Alignment.bottomLeft,
+                child: const Text(
+                  'Vritant',
+                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
+            ListTile(
+              leading: const Icon(Icons.home),
+              title: const Text('About us'),
+              onTap: () {
+                navToPage(const AboutUs());
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.contact_mail),
+              title: const Text('Contact us'),
+              onTap: () {
+                navToPage(const ContactUs());
+              },
+            ),
+          ],
+        ),
+      ),
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.white12,
@@ -145,5 +178,12 @@ class _TabsScreenState extends State<TabsScreen> {
       // signed via google
       gAuth.handleSignOut();
     }
+  }
+
+  void navToPage(Widget widget) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => widget),
+    );
   }
 }
