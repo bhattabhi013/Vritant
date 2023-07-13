@@ -7,6 +7,7 @@ import 'package:ar_flutter_plugin/managers/ar_object_manager.dart';
 import 'package:ar_flutter_plugin/managers/ar_session_manager.dart';
 import 'package:ar_flutter_plugin/models/ar_node.dart';
 import 'package:flutter/material.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:vector_math/vector_math_64.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
@@ -84,7 +85,8 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
               children: [
                 Column(
                   children: [
-                    ElevatedButton(
+                    Row(children:
+                    [ElevatedButton(
                       onPressed: () async {
                         //your custom configuration
                         await ftts.setLanguage("en-US");
@@ -102,10 +104,20 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
                       },
                       child: Text("Play 📢"),
                     ),
+                      SizedBox(width: 20,),
+                      ElevatedButton(
+                        onPressed: () {
+                          Share.share('${widget.msg}\n\nSee more such poems in VR view in Vritant Application. Check out Vritant: https://github.com/bhattabhi013/Vritant');
+                        },
+                        child: const Text("Share"),
+
+                      ),
+                    ]),
                     ElevatedButton(
                       onPressed: onWebObjectAtButtonPressed,
                       child: Text("Add➕ / Remove❌ Web Object"),
                     ),
+
                   ],
                 ),
               ],
