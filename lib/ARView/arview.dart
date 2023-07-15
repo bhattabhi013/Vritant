@@ -107,7 +107,7 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
                       SizedBox(width: 20,),
                       ElevatedButton(
                         onPressed: () {
-                          Share.share('${widget.msg}\n\nSee more such poems in VR view in Vritant Application. Check out Vritant: https://github.com/bhattabhi013/Vritant');
+                          Share.share('${widget.msg}\n\n See more such poems in VR view in Vritant Application. Check out Vritant: https://github.com/bhattabhi013/Vritant');
                         },
                         child: const Text("Share"),
 
