@@ -46,7 +46,7 @@ class _VritantState extends State<Vritant> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: isFirstRun?OnBoardingPage():LandingPage(),
+      home: isFirstRun ? OnBoardingPage() : LandingPage(),
     );
   }
 }
