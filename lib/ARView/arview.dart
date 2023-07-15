@@ -117,7 +117,6 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
                       onPressed: onWebObjectAtButtonPressed,
                       child: Text("Add➕ / Remove❌ Web Object"),
                     ),
-
                   ],
                 ),
               ],
