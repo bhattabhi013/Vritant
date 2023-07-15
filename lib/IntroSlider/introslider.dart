@@ -77,8 +77,6 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
             borderRadius: BorderRadius.circular(25.0)
         ),
       ),
-
-
     ));
   }
 
