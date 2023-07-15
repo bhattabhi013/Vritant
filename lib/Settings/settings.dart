@@ -11,6 +11,7 @@ class SettingsPage extends StatefulWidget {
 }
 
 class _SettingsPageState extends State<SettingsPage> {
+  final String subject = 'Hey, check out Vritant, an amazing application that is built upon a comprehensive analysis of children\'s educational needs and the challenges they face while studying. It helps children learn rhymes faster in an easy and lucrative way!- https://github.com/bhattabhi013/Vritant';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +28,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   title: const Text('Share Vritant'),
                   value: const Text('Help to spread a word about the application!'),
                   onPressed: (t) {
-                    Share.share('Hey, check out Vritant, an amazing application that is built upon a comprehensive analysis of children\'s educational needs and the challenges they face while studying. It helps children learn rhymes faster in an easy and lucrative way!: https://github.com/bhattabhi013/Vritant', subject: 'Check out this amazing application!');
+                    Share.share(subject, subject: 'Check out this amazing application!');
     }
     ,
                 ),
