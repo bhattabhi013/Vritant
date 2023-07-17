@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import 'package:vritant/Favourite/savedRhymes.dart';
 import 'package:vritant/Home/screens.dart';
+import 'package:vritant/Settings/settings.dart';
 import 'package:vritant/login/providers/google_auth_provider.dart';
 import 'package:vritant/tabs/provider/localProvider.dart';
 
@@ -25,7 +26,7 @@ class _TabsScreenState extends State<TabsScreen> {
 
   @override
   void initState() {
-    _pages = [HomePage(), ObjectGesturesWidget()];
+    _pages = [HomePage(), ObjectGesturesWidget(), SettingsPage()];
     super.initState();
   }
 
@@ -130,6 +131,15 @@ class _TabsScreenState extends State<TabsScreen> {
                   ),
                 ),
                 label: 'Playground',
+              ),
+              BottomNavigationBarItem(
+                icon: Padding(
+                  padding: EdgeInsets.fromLTRB(0.0, 5.0, 0.0, 0.0),
+                  child: Icon(
+                    Icons.settings_suggest_outlined,
+                  ),
+                ),
+                label: 'Settings',
               ),
             ],
           ),

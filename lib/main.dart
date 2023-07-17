@@ -1,7 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:is_first_run/is_first_run.dart';
 import 'package:provider/provider.dart';
+import 'package:vritant/IntroSlider/introslider.dart';
 import 'package:vritant/firebase_options.dart';
 import 'package:vritant/login/providers/google_auth_provider.dart';
 import 'package:vritant/login/screens/login.dart';
@@ -15,9 +17,26 @@ Future<void> main() async {
   runApp(Vritant());
 }
 
-class Vritant extends StatelessWidget {
+class Vritant extends StatefulWidget {
   const Vritant({super.key});
 
+  @override
+  State<Vritant> createState() => _VritantState();
+}
+
+class _VritantState extends State<Vritant> {
+  bool isFirstRun = false;
+
+  Future<void> isfirstrun() async {
+    isFirstRun = await IsFirstRun.isFirstRun();
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    isfirstrun();
+    super.initState();
+  }
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -27,7 +46,7 @@ class Vritant extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LandingPage(),
+      home: isFirstRun ? OnBoardingPage() : LandingPage(),
     );
   }
 }
