@@ -1,9 +1,13 @@
+
 <div id="top"></div>
 <p align="center">
   <a href="" rel="noopener">
  <img src="https://i.imgur.com/AZ2iWek.png" alt="Project logo"></a>
 </p>
-<h3 align="center">Vritant</h3>
+<h1 id="logo"><a><img src="https://github.com/iqrafirdose/Vritant/assets/114678694/b53cf8a8-1339-4772-8d60-9e145f10c939" height="40" alt="logo"/> Vritant </a></h1>
+
+<b>Vritant</b> is a cross-platform application to help the naughty and carefree young ones learn and <b>understand nursery rhymes</b> in a fun and interactive way. Vritant helps to incorporate Augmented Reality based digital learning experiences to help children take their first step into formal education.
+
 <div align="center">
 <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
 <img src="https://forthebadge.com/images/badges/uses-brains.svg" />
@@ -28,10 +32,10 @@
 </div>
 
 ---
-<h3 align="center">Workflow of the Project</h3>
+<h2 align="center">Workflow of the Project</h2>
 
 - Initial Needs Identification: 
-  - The project begins with a comprehensive analysis of children's educational needs and the challenges they face while studying. <br>
+  - The project begins with a comprehensive analysis of children's educational needs and their challenges while studying. <br>
 - Secure User Authentication: 
   - Upon accessing our application, users will be prompted to authenticate their identity through a secure Google authentication process. <br>
 - User-Friendly Login: 
@@ -54,22 +58,22 @@
   - Users have the ability to zoom in and zoom out on the 3-D models, enabling a detailed examination of the content. <br>
 
 ---
-<h3 align="center">Aim of the Project</h3>
+<h2 align="center">Aim of the Project</h2>
 
 - Facilitating Easy and Enjoyable Learning: 
   - Vritant aims to provide a learning environment that is both accessible and enjoyable for children. <br>
 - Comprehensive Features for Optimal Understanding: 
   - The application incorporates numerous features that enhance the comprehension of rhymes, ensuring a well-rounded learning experience. <br>
 - Innovation through Unique Concepts: 
-  - Vritant stands out by employing innovative ideas, bringing a fresh perspective to the learning process. <br>
+  - Vritant stands out by employing innovative ideas and bringing a fresh perspective to the learning process. <br>
 - Preventing Boredom in Learning: 
-  - By employing engaging methods and interactive content, Vritant ensures that children remain engaged and interested while learning. <br>
+  - By employing engaging methods and interactive content, Vritant ensures children remain engaged and interested while learning. <br>
 - Universal Accessibility: 
   - Vritant is designed to be easily accessible to all users, regardless of their background or technological expertise. <br>
 - Free Application: 
   - The application is available to users at no cost, eliminating any financial barriers and allowing for widespread access. <br>
 - Fun Learning for Children: 
-  - Vritant specifically targets children, providing them with a pressure-free, enjoyable learning experience. <br>
+  - Vritant specifically targets children, providing them a pressure-free, enjoyable learning experience. <br>
 
 ---
 
@@ -93,18 +97,18 @@
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
 - Successful communication requires the efforts of all people involved
-Education industry is being digitized through smart devices technology being addictive and fascinating. 
-- Reading books is really boring but with the help of AR we can help turn it into a fun experience.
+The education industry is being digitized through smart devices and technology is addictive and fascinating. 
+- Reading books is really boring but with the help of AR, we can help turn it into a fun experience.
 
 ## 💡 Idea / Solution <a name = "idea"></a>
 We are trying to create an application/web-based solution following its
 incorporated features: 
 - Vritaant is a cross-platform application to help the naughty and carefree young ones learn and understand nursery rhymes in a fun and interactive way.
-- Vritaant helps to incorporate Augmented Reality  based digital learning experience to help children take their first step into formal education
+- Vritaant helps to incorporate Augmented Reality  based digital learning experiences to help children take their first step into formal education
 - Visualisation of nursery rhymes by putting them in a real 3D environment with in-space
 navigation support.
-- 3D models for the rhyme characters are  supporting and connecting blocks to create a setting and putting it in real world.
-- Augmented Reality powered voice - based support aims at helping kids age 3-4 to learn the nursery rhymes at a faster pace.
+- 3D models for the rhyme characters are  supporting and connecting blocks to create a setting and putting it in the real world.
+- Augmented Reality powered voice-based support aims at helping kids aged 3-4 to learn nursery rhymes at a faster pace.
 - Support for playground features makes it easier to test out various 3D models that are accessible, perform various transformations, and render numerous instances.
 - The application is made more secure by leveraging Google authentication through Firebase.
 
@@ -124,14 +128,14 @@ https://github.com/Pratik-11/Vritant/assets/72139212/368c1eae-c270-4833-8199-042
 - Speech-reading to aid
 communication within a
 group.
-- Increasing a wide variety of tracks to choose from like learning alphabets or numbers to fun rhymes, colors and shapes to keep the child engaged. 
+- Increasing a wide variety of tracks to choose from like learning alphabets or numbers to fun rhymes, colors, and shapes to keep the child engaged. 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 - Clone the project or fork the project.
 - Run 'pub get'.
 - Enjoy the code.
 
-### Prerequisites
+### 📃 Prerequisites
 
 - Flutter 
 - Git
@@ -147,13 +151,13 @@ To be updated
 
 ## :computer: How to Start Contributing <a name = "how_contribute"></a>
 Before contributing let's learn how to set up the project in the local system.
-### How to run the project in local system
+## How to run the project in the local system
 - First fork this repository from the option given at the top of this page.
 - Now clone the forked repository by running this command in the terminal:
   - ```
     git clone https://github.com/<your-username>/Vritant.git
     ``` 
-- Either create an android emulator or connect a physical device to run the project.
+- Either create an Android emulator or connect a physical device to run the project.
 - Now get to the root of your Flutter project using :
   - ```
     cd <name of your root>
@@ -163,27 +167,27 @@ Before contributing let's learn how to set up the project in the local system.
     flutter run
     ```
 - The project is all set up now!
-### How to Contribute
+## 👨‍💻 How to Contribute
 Now that the project is properly setup, follow these steps to make your first contribution :
-- Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
-- Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
+- Fork this repository by clicking on the fork button at the top of this page. This will create a copy of this repository in your account.
+- Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button, and then click the copy to clipboard icon.
 - Open a terminal and run the following git command:
   - ```
-    git clone "url you just copied"
+    git clone "URL you just copied"
     ```
-    - Above where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+    - Above where "URL you just copied" (without quotation marks) is the URL to this repository (your fork of this project). See the previous steps to obtain the URL.
       
   - For example:
     - ```
       git clone https://github.com/your_username/Vritant.git
       ```
-- Now create a branch using the 'git switch' command in repository directory:
+- Now create a branch using the 'git switch' command in the repository directory:
   -   ```
       git switch -c your-new-branch-name
       ```
 - Make necessary changes and commit those changes. Add those changes to the branch you just created using the 'git add' command:
   -   ```
-      git add .
+      git add.
       ```
     Now commit those changes using the 'git commit' command:
       ```
@@ -193,7 +197,24 @@ Now that the project is properly setup, follow these steps to make your first co
   -   ```
       git push -u origin your-branch-name
       ```
-      replacing your-branch-name with the name of the branch you created earlier.
+      replacing your branch name with the name of the branch you created earlier.
+
+
+## 🧑‍💻 CONTRIBUTION 👏
+
+- Contributions make the open-source community such an amazing place to learn, inspire, and create.
+- Any contributions you make are greatly appreciated.
+- Before contributing, Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
+
+### Code of Conduct
+
+Check out <a href="https://github.com/bhattabhi013/Vritant/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a> to know an inclusive environment that respects all contributions.
+
+
+### License
+
+This Community is <a href="https://github.com/bhattabhi013/Vritant/blob/master/LICENSE">Licensed</a> under MIT license.
+
 
 ## ✍️ Authors <a name = "authors"></a>
 - [Abhishek Bhatt](https://github.com/bhattabhi013) - Idea & Initial work
@@ -205,15 +226,7 @@ Now that the project is properly setup, follow these steps to make your first co
 - [Text-to-speech](https://pub.dev/packages/flutter_tts)
 - [Ar Flutter plugin](https://pub.dev/packages/ar_flutter_plugin)
 
-
-# <h1 align=center>🧑‍💻 CONTRIBUTION 👏</h1>
-
-- Contributions make the open source community such an amazing place to learn, inspire, and create.
-- Any contributions you make are greatly appreciated.
-- Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
-
 <br>
-
 
 <h1 align=center> Project Admin 💻</h1>
 
@@ -223,7 +236,7 @@ Now that the project is properly setup, follow these steps to make your first co
 
 <h1 align=center> Our Amazing Contributors 👨‍👨‍👦‍👦❤️</h1>
 
-Thanks to all the contributors who worked for this project to stay alive! 😊😎
+Thanks to all the contributors who worked on this project to stay alive!We value the time and effort you put into contributing to this project. 😊😎
 
 <a align="center" href="https://github.com/bhattabhi013/Vritant/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=bhattabhi013/Vritant&&max=817" />  
