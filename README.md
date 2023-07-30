@@ -4,9 +4,9 @@
   <a href="" rel="noopener">
  <img src="https://i.imgur.com/AZ2iWek.png" alt="Project logo"></a>
 </p>
-<h1 id="logo"><a><img src="https://github.com/iqrafirdose/Vritant/assets/114678694/b53cf8a8-1339-4772-8d60-9e145f10c939" height="40" alt="logo"/> Vritant </a></h1>
+<h1 id="logo"><a><img src="https://github.com/iqrafirdose/Vritant/assets/114678694/b53cf8a8-1339-4772-8d60-9e145f10c939" height="40" alt="logo"/> Vritaant </a></h1>
 
-<b>Vritant</b> is a cross-platform application to help the naughty and carefree young ones learn and <b>understand nursery rhymes</b> in a fun and interactive way. Vritant helps to incorporate Augmented Reality based digital learning experiences to help children take their first step into formal education.
+<b>Vritaant</b> is a cross-platform application to help the naughty and carefree young ones learn and <b>understand nursery rhymes</b> in a fun and interactive way. Vritaant helps to incorporate Augmented Reality based digital learning experiences to help children take their first step into formal education.
 
 <div align="center">
 <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
@@ -61,19 +61,19 @@
 <h2 align="center">Aim of the Project</h2>
 
 - Facilitating Easy and Enjoyable Learning: 
-  - Vritant aims to provide a learning environment that is both accessible and enjoyable for children. <br>
+  - Vritaant aims to provide a learning environment that is both accessible and enjoyable for children. <br>
 - Comprehensive Features for Optimal Understanding: 
   - The application incorporates numerous features that enhance the comprehension of rhymes, ensuring a well-rounded learning experience. <br>
 - Innovation through Unique Concepts: 
-  - Vritant stands out by employing innovative ideas and bringing a fresh perspective to the learning process. <br>
+  - Vritaant stands out by employing innovative ideas and bringing a fresh perspective to the learning process. <br>
 - Preventing Boredom in Learning: 
-  - By employing engaging methods and interactive content, Vritant ensures children remain engaged and interested while learning. <br>
+  - By employing engaging methods and interactive content, Vritaant ensures children remain engaged and interested while learning. <br>
 - Universal Accessibility: 
-  - Vritant is designed to be easily accessible to all users, regardless of their background or technological expertise. <br>
+  - Vritaant is designed to be easily accessible to all users, regardless of their background or technological expertise. <br>
 - Free Application: 
   - The application is available to users at no cost, eliminating any financial barriers and allowing for widespread access. <br>
 - Fun Learning for Children: 
-  - Vritant specifically targets children, providing them a pressure-free, enjoyable learning experience. <br>
+  - Vritaant specifically targets children, providing them a pressure-free, enjoyable learning experience. <br>
 
 ---
 
