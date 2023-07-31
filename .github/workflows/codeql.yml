@@ -35,7 +35,7 @@ jobs:
     - name: Autobuild
       uses: github/codeql-action/autobuild@v2
       with:
-        working directory: "./linux"
+        working-directory: "./linux"
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
