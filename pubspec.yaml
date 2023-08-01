@@ -38,9 +38,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core_platform_interface: 4.5.1
   firebase_auth: ^3.3.10
-  provider: ^6.0.2
+  provider: ^6.0.5
   google_sign_in: ^5.2.4
-  http: ^0.13.4
+  http: ^0.13.6
   get: ^4.6.1
   flutter_svg: ^1.0.3
   image_picker: ^0.8.4+11
@@ -55,6 +55,9 @@ dependencies:
   introduction_screen: ^3.1.8
   share_plus: ^7.0.2
   settings_ui: ^2.0.2
+  flutter_oss_licenses: ^2.0.1
+  url_launcher: ^6.1.11
+  simple_accordion: ^0.1.4
   
 dev_dependencies:
   flutter_test:
