@@ -16,6 +16,7 @@ class _HomePageState extends State<HomePage> {
     const title = 'Discover Nursery \n Rhymes \n';
 
     return Scaffold(
+
         body: GridView.count(
           // Create a grid with 2 columns. If you change the scrollDirection to
           // horizontal, this produces 2 rows.
@@ -93,7 +94,7 @@ class GifCard extends StatelessWidget {
     final mediaquery = MediaQuery.of(context);
 
     return Container(
-      color: Colors.blue[100],
+      color: Theme.of(context).colorScheme.background,
       margin: const EdgeInsets.all(5),
       padding: const EdgeInsets.all(5),
       height: mediaquery.size.height * 0.5,
