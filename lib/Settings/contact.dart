@@ -12,9 +12,9 @@ class ContactScreen extends StatefulWidget {
 
 class _ContactScreenState extends State<ContactScreen> {
 
-  TextEditingController controller = TextEditingController();
-  TextEditingController controller1 = TextEditingController();
-  TextEditingController controller2 = TextEditingController();
+  TextEditingController nameController = TextEditingController();
+  TextEditingController emailController = TextEditingController();
+  TextEditingController queryController = TextEditingController();
   String ilink = 'https://script.google.com/macros/s/AKfycbyETkWH5JZccEVrTgTyJKAtZBR78b6iIvLWtnacp397hlolAMrCrPBKBFSjq7kbeqCW/exec';
 
   @override
@@ -26,19 +26,19 @@ class _ContactScreenState extends State<ContactScreen> {
         Text('GET IN TOUCH', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24, color: Theme.of(context).colorScheme.tertiary),),
         SizedBox(height: 40,),
         Text('Enter Your Name :', style: TextStyle(fontWeight: FontWeight.bold),),
-        TextField(controller: controller,keyboardType: TextInputType.name,),
+        TextField(controller: nameController,keyboardType: TextInputType.name,),
         SizedBox(height: 20,),
         Text('Enter Email :',style: TextStyle(fontWeight: FontWeight.bold),),
-        TextField(controller: controller1,keyboardType: TextInputType.emailAddress,),
+        TextField(controller: emailController,keyboardType: TextInputType.emailAddress,),
         SizedBox(height: 20,),
         Text('Enter your Query :',style: TextStyle(fontWeight: FontWeight.bold),),
-        TextField(controller: controller2, keyboardType: TextInputType.text,),
+        TextField(controller: queryController, keyboardType: TextInputType.text,),
         SizedBox(height: 20,),
         ElevatedButton(onPressed: () async {
           DateTime now = DateTime.now();
           String dateinsert = DateFormat('kk:mm:ss \n EEE d MMM').format(now);
-          if(controller.text.isNotEmpty && controller1.text.isNotEmpty && controller2.text.isNotEmpty) {
-              String flink = ilink+'?query=${controller2.text.toString()}&email=${controller1.text.toString()}&name=${controller.text.toString()}&timestamp=$dateinsert';
+          if(nameController.text.isNotEmpty && emailController.text.isNotEmpty && queryController.text.isNotEmpty) {
+              String flink = ilink+'?query=${queryController.text.toString()}&email=${emailController.text.toString()}&name=${nameController.text.toString()}&timestamp=$dateinsert';
               var finalURI = Uri.parse(flink);
               var response = await http.get(finalURI);
               if (response.statusCode == 200) {
