@@ -57,7 +57,10 @@ dependencies:
   settings_ui: ^2.0.2
   flutter_oss_licenses: ^2.0.1
   url_launcher: ^6.1.11
+
+
   simple_accordion: ^0.1.4
+
   
 dev_dependencies:
   flutter_test:
