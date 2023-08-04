@@ -30,6 +30,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   onPressed: (t) {
                     Share.share(subject, subject: 'Check out this amazing application!');
     },
+
                   SettingsTile.navigation(
                   leading: const Icon(Icons.contact_emergency_outlined),
                   title: const Text('Contact Us'),
@@ -38,6 +39,17 @@ class _SettingsPageState extends State<SettingsPage> {
                     Navigator.of(context).push(MaterialPageRoute(builder: (context) => ContactScreen()));
                   },
                 ),
+
+                  
+                ),
+                SettingsTile.navigation(
+                  leading: const Icon(Icons.question_answer),
+                  title: const Text('FAQs'),
+                  value: const Text('Having Issues using Vritant? Contact us now!'),
+                  onPressed: (t) {
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => const FAQScreen()));
+                  },
+
                 ),
 
               ],
