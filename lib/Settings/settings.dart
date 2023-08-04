@@ -2,10 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:settings_ui/settings_ui.dart';
 import 'package:share_plus/share_plus.dart';
+
 import 'package:vritant/Settings/licenses.dart';
 import 'package:vritant/themes/light.dart';
 import '../tabs/provider/ThemeProvider.dart';
 import '../themes/dark.dart';
+
+import 'package:url_launcher/url_launcher.dart';
+
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({Key? key}) : super(key: key);
@@ -17,6 +21,7 @@ class SettingsPage extends StatefulWidget {
 }
 
 class _SettingsPageState extends State<SettingsPage> {
+
   ThemeData? _currentTheme;
 
 
@@ -36,6 +41,7 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   bool darkmode = false;
+
   final String issuesurl = 'https://github.com/bhattabhi013/Vritant/issues';
   final String subject = 'Hey, check out Vritant, an amazing application that is built upon a comprehensive analysis of children\'s educational needs and the challenges they face while studying. It helps children learn rhymes faster in an easy and lucrative way!- https://github.com/bhattabhi013/Vritant';
   @override
@@ -81,14 +87,31 @@ class _SettingsPageState extends State<SettingsPage> {
                     Share.share(subject, subject: 'Check out this amazing application!');},
                 ),
                 SettingsTile.navigation(
+
                   leading: const Icon(Icons.document_scanner_outlined),
                   title: const Text('Licenses'),
                   value: const Text('See application\'s licenses'),
                   onPressed: (t) {
                     Navigator.of(context).push(MaterialPageRoute(builder: (context) => LicensesScreen()));
 
+                  leading: const Icon(Icons.support),
+                  title: const Text('Support Development'),
+                  value: const Text('See latest issues and contribute to the project!'),
+                  onPressed: (t) {
+                    _launchURL();
+
                     Share.share(subject, subject: 'Check out this amazing application!');
     },
+
+                  SettingsTile.navigation(
+                  leading: const Icon(Icons.contact_emergency_outlined),
+                  title: const Text('Contact Us'),
+                  value: const Text('Having Issues using Vritant? Contact us now!'),
+                  onPressed: (t) {
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => ContactScreen()));
+                  },
+                ),
+
                   
                 ),
                 SettingsTile.navigation(
@@ -106,5 +129,12 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       ),
     );
+  }
+
+  _launchURL() async {
+    final Uri url = Uri.parse(issuesurl);
+    if (!await launchUrl(url)) {
+      throw Exception('Could not launch $issuesurl');
+    }
   }
 }
