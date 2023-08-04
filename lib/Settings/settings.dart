@@ -31,6 +31,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   title: const Text('Share Vritant'),
                   value: const Text('Help to spread a word about the application!'),
                   onPressed: (t) {
+
                     Share.share(subject, subject: 'Check out this amazing application!');},
                 ),
                 SettingsTile.navigation(
@@ -39,6 +40,18 @@ class _SettingsPageState extends State<SettingsPage> {
                   value: const Text('See latest issues and contribute to the project!'),
                   onPressed: (t) {
                     _launchURL();
+
+                    Share.share(subject, subject: 'Check out this amazing application!');
+    },
+                  
+                ),
+                SettingsTile.navigation(
+                  leading: const Icon(Icons.question_answer),
+                  title: const Text('FAQs'),
+                  value: const Text('Having Issues using Vritant? Contact us now!'),
+                  onPressed: (t) {
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => const FAQScreen()));
+
                   },
                 ),
               ],
