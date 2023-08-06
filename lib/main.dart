@@ -7,14 +7,24 @@ import 'package:vritant/IntroSlider/introslider.dart';
 import 'package:vritant/firebase_options.dart';
 import 'package:vritant/login/providers/google_auth_provider.dart';
 import 'package:vritant/login/screens/login.dart';
+import 'package:vritant/tabs/provider/ThemeProvider.dart';
 import 'package:vritant/tabs/screens/tabs_screen.dart';
+import 'package:vritant/themes/dark.dart';
+import 'package:vritant/themes/light.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(Vritant());
+  runApp(MultiProvider( // create the provider
+    providers: [
+      ChangeNotifierProvider(
+        create: (_) => ThemeProvider(),
+      )
+    ],
+    child: const Vritant(),
+  ),);
 }
 
 class Vritant extends StatefulWidget {
@@ -46,7 +56,7 @@ class _VritantState extends State<Vritant> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: isFirstRun ? OnBoardingPage() : LandingPage(),
+      home: isFirstRun?OnBoardingPage():LandingPage(),
     );
   }
 }
@@ -64,6 +74,8 @@ class LandingPage extends StatelessWidget {
         ChangeNotifierProvider(create: (context) => GoogleSignInProvider()),
       ],
       child: MaterialApp(
+        theme: Provider.of<ThemeProvider>(context).currentTheme,
+
         title: 'Vritant',
         debugShowCheckedModeBanner: false,
         // home: LoginPage(),   // enable google sign-in
