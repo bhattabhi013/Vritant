@@ -37,8 +37,8 @@ class _TabsScreenState extends State<TabsScreen> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.white12,
-        foregroundColor: Colors.black,
+        backgroundColor: Theme.of(context).colorScheme.background,
+
         title: Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
@@ -47,7 +47,7 @@ class _TabsScreenState extends State<TabsScreen> {
               softWrap: true,
               style: const TextStyle(
                 fontFamily: 'Open-Sauce-Sans',
-                color: Colors.black,
+
               ),
             ),
             Flexible(
@@ -58,7 +58,7 @@ class _TabsScreenState extends State<TabsScreen> {
                 style: const TextStyle(
                   fontFamily: 'Open-Sauce-Sans',
                   fontSize: 20.0,
-                  color: Colors.black,
+
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -82,14 +82,14 @@ class _TabsScreenState extends State<TabsScreen> {
       ),
       body: Container(
         child: _pages[_SelectedPageIndex],
-        color: Colors.white,
+        color: Theme.of(context).colorScheme.background,
       ),
       bottomNavigationBar: Container(
         // padding: EdgeInsets.fromLTRB(10.0, 0.0, 20.0, 10.0),
         margin: EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 25.0),
         decoration: BoxDecoration(
           color: Colors.white12,
-          border: Border.all(color: Colors.white),
+          border: Border.all(color: Colors.white24),
           borderRadius: BorderRadius.circular(10),
           boxShadow: [
             BoxShadow(
@@ -109,9 +109,8 @@ class _TabsScreenState extends State<TabsScreen> {
           ),
           child: BottomNavigationBar(
             onTap: _selectPage,
-            backgroundColor: Colors.white,
-            unselectedItemColor: Colors.blueGrey,
-            selectedItemColor: Colors.red,
+            backgroundColor: Theme.of(context).colorScheme.surface,
+
             currentIndex: _SelectedPageIndex,
             type: BottomNavigationBarType.fixed,
             items: const [

@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:settings_ui/settings_ui.dart';
 import 'package:share_plus/share_plus.dart';
 
 import 'package:vritant/Settings/licenses.dart';
+
+
+import 'package:vritant/themes/light.dart';
+import '../tabs/provider/ThemeProvider.dart';
+import '../themes/dark.dart';
+
 
 import 'package:url_launcher/url_launcher.dart';
 
@@ -11,12 +18,36 @@ class SettingsPage extends StatefulWidget {
   const SettingsPage({Key? key}) : super(key: key);
   static const routeName = '/settings';
 
+
   @override
   State<SettingsPage> createState() => _SettingsPageState();
 }
 
 class _SettingsPageState extends State<SettingsPage> {
 
+
+
+
+
+  ThemeData? _currentTheme;
+
+
+  void _setTheme(ThemeData? theme) {
+    if (theme != null) {
+      setState(() {
+        _currentTheme = theme;
+      });
+    }
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    _currentTheme = ThemeMode.system == ThemeMode.light ? lightTheme : darkTheme;
+    super.initState();
+  }
+
+  bool darkmode = false;
 
 
   final String issuesurl = 'https://github.com/bhattabhi013/Vritant/issues';
@@ -33,6 +64,29 @@ class _SettingsPageState extends State<SettingsPage> {
               title: const Text('Common'),
               tiles: <SettingsTile>[
 
+                SettingsTile.switchTile(initialValue: darkmode,
+                    leading:  const Icon(Icons.dark_mode),
+                    onToggle: (s) {
+                      final themeProvider =
+                      Provider.of<ThemeProvider>(context, listen: false);
+
+                  setState(() {
+                    darkmode = !darkmode;
+                  });
+
+                  if(darkmode) {
+                    setState(() {
+                      themeProvider.setDarkmode();
+                    });
+                  }
+                  else {
+                    setState(() {
+                      themeProvider.setLightMode();
+                    });
+                  }
+                    },
+                    title: Text('Dark Mode')),
+
                 SettingsTile.navigation(
                   leading: const Icon(Icons.ios_share),
                   title: const Text('Share Vritant'),
@@ -42,11 +96,16 @@ class _SettingsPageState extends State<SettingsPage> {
                     Share.share(subject, subject: 'Check out this amazing application!');},
                 ),
                 SettingsTile.navigation(
+
+
+
+
                   leading: const Icon(Icons.document_scanner_outlined),
                   title: const Text('Licenses'),
                   value: const Text('See application\'s licenses'),
                   onPressed: (t) {
                     Navigator.of(context).push(MaterialPageRoute(builder: (context) => LicensesScreen()));
+
                   },
                 ),
 
@@ -54,6 +113,9 @@ class _SettingsPageState extends State<SettingsPage> {
                     Share.share(subject, subject: 'Check out this amazing application!');},
                 ),
                 SettingsTile.navigation(
+
+
+
                   leading: const Icon(Icons.support),
                   title: const Text('Support Development'),
                   value: const Text('See latest issues and contribute to the project!'),
