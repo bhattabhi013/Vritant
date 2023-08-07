@@ -137,6 +137,6 @@ class GifCard extends StatelessWidget {
           ],
         ),
       ),
-    ));
+    );
   }
 }
