@@ -93,7 +93,7 @@ class GifCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final mediaquery = MediaQuery.of(context);
 
-    return Material(elevation: 0,child: Container(
+    return Container(
 
       decoration: BoxDecoration(
         color: Theme.of(context).colorScheme.background,
