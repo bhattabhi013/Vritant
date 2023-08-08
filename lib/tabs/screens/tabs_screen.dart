@@ -37,7 +37,7 @@ class _TabsScreenState extends State<TabsScreen> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: Colors.white,
 
         title: Row(
           mainAxisAlignment: MainAxisAlignment.start,
