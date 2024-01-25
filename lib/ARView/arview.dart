@@ -36,7 +36,6 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
     super.dispose();
   }
 
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
@@ -85,32 +84,34 @@ class _LocalAndWebObjectsViewState extends State<LocalAndWebObjectsView> {
               children: [
                 Column(
                   children: [
-                    Row(children:
-                    [ElevatedButton(
-                      onPressed: () async {
-                        //your custom configuration
-                        await ftts.setLanguage("en-US");
-                        await ftts.setSpeechRate(0.3); //speed of speech
-                        await ftts.setVolume(1.0); //volume of speech
-                        await ftts.setPitch(1); //pitc of sound
+                    Row(children: [
+                      ElevatedButton(
+                        onPressed: () async {
+                          //your custom configuration
+                          await ftts.setLanguage("en-US");
+                          await ftts.setSpeechRate(0.3); //speed of speech
+                          await ftts.setVolume(1.0); //volume of speech
+                          await ftts.setPitch(1); //pitch of sound
 
-                        //play text to sp
-                        var result = await ftts.speak(widget.msg);
-                        if (result == 1) {
-                          //speaking
-                        } else {
-                          //not speaking
-                        }
-                      },
-                      child: Text("Play 📢"),
-                    ),
-                      SizedBox(width: 20,),
+                          //play text to sp
+                          var result = await ftts.speak(widget.msg);
+                          if (result == 1) {
+                            //speaking
+                          } else {
+                            //not speaking
+                          }
+                        },
+                        child: Text("Play 📢"),
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
                       ElevatedButton(
                         onPressed: () {
-                          Share.share('${widget.msg}\n\n See more such poems in VR view in Vritant Application. Check out Vritant: https://github.com/bhattabhi013/Vritant');
+                          Share.share(
+                              '${widget.msg}\n\n See more such poems in VR view in Vritant Application. Check out Vritant: https://github.com/bhattabhi013/Vritant');
                         },
                         child: const Text("Share"),
-
                       ),
                     ]),
                     ElevatedButton(
